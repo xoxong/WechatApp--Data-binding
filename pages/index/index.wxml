@@ -1,0 +1,17 @@
+
+<!--车牌号 -->
+<view class='mpdular_1'>
+  <!--建立input输入车牌号  -->
+  <input class='m1_inp1' value='' type='text' name='numbers' placeholder='请输入车牌号' bindinput="fun_input"></input>
+  <!--显示车牌号  -->
+  <view class='m1_view1'>车牌号：{{numbers}}</view>
+  <!--保存按钮  -->
+  <button class='m1_btn1' bindtap="fun_btn">保存</button>
+
+  <!--添加车牌号  -->
+  <block wx:for='{{numbers1}}' wx:key='index'>
+    <view class='m1_view2' wx:if='{{cons}}'>
+      车牌号：{{numbers1[index]}}  <button bindtap='fun_brn2' data-id='{{index}}'>删</button>
+    </view>
+  </block>
+</view>

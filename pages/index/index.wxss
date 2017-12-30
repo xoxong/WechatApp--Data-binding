@@ -1,0 +1,10 @@
+/* 车排行input  */
+.mpdular_1 .m1_inp1{width: 78%;height: 80rpx;padding-left: 10rpx;margin: 10% 10%; border: 1px solid gray;border-radius: 10rpx;display: block;}
+/* 显示车牌 */
+.mpdular_1 .m1_view1{width: 78%;height: 80rpx;padding-left: 10rpx;margin: 10% 10%; border: 1px solid gray;border-radius: 10rpx;display: block;line-height: 80rpx;background-color: orange;color: white;border: 0rpx solid}
+/* 保存按钮 */
+.mpdular_1 .m1_btn1{width: 50%;height: 30px;color: gray;line-height: 30px;margin-bottom: 30rpx}
+/* 保存加载的数据  */
+.mpdular_1 .m1_view2{width: 78%;height: 80rpx;padding-left: 10rpx;margin: 1% 10%; border: 1px solid gray;border-radius: 10rpx;display: block;line-height: 80rpx;background-color: gainsboro;color: black;border: 0rpx solid}
+/* 删除  */
+.mpdular_1 .m1_view2 button{width:20%;height:100%;float: right;font-size: 40rpx;text-align: center;line-height: 80rpx}
