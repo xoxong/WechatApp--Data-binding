@@ -31,7 +31,7 @@
     </view></block></view>
 
 #### WXSS
-		// 正则判断是否正确
+	// 正则判断是否正确
     if (/^[\u4e00-\u9fa5][A-Z]{1}[-]{1}[0-9]{5}$/.test(that.data.numbers)==false){
       wx.showModal({
         title: '提示',
@@ -58,5 +58,5 @@
       that.setData({
         numbers1: arrnum
       })
-    }
-     },
+     }
+    },
