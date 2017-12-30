@@ -15,6 +15,7 @@
 
 
 ### 部分代码
+#### WXML
 	<!--车牌号 -->
 	<view class='mpdular_1'>
 		<!--建立input输入车牌号  -->
@@ -28,7 +29,9 @@
 			<view class='m1_view2' wx:if='{{cons}}'>
       			车牌号：{{numbers1[index]}}  
       		<button bindtap='fun_brn2' data-id='{{index}}'>删</button>
-    </view></block></view>
+      		</view>
+      	</block>
+    </view>
 
 #### WXSS
 	// 正则判断是否正确
